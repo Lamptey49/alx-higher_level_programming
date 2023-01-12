@@ -1,11 +1,14 @@
 #!/usr/bin/python3
-print_sorted_dictionary = __import__('6-print_sorted_dictionary').print_sorted_dictionary
+print_sorted_dictionary =
+__import__('6-print_sorted_dictionary').print_sorted_dictionary
+
 
 def update_dictionary(a_dictionary, key, value):
     a_dictionary[key] = value
-    return(a_dictionary)
+    return (a_dictionary)
 
-a_dictionary = { 'language': "C", 'number': 89, 'track': "Low level" }
+
+a_dictionary = {'language': "C", 'number': 89, 'track': "Low level"}
 new_dict = update_dictionary(a_dictionary, 'language', "Python")
 print_sorted_dictionary(new_dict)
 print("--")
